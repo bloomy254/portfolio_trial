@@ -8,7 +8,7 @@ body{
     border: none;
     background-color: #fff;
     font-size: 1.5rem;
-    color: #fca61f;
+    color: #fc1f82;
 }
 /* styling navbar links  */
 .navbar-nav a{
@@ -16,7 +16,7 @@ body{
     position: relative;
 }
 .navbar-nav a:hover{
-    color: #fca61f;
+    color: #fc1f82;
 }
 .navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
@@ -27,7 +27,7 @@ body{
     left: 50%;
     top: 35px;
     position: absolute;
-    background: #fca61f;
+    background: #fc1f82;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -38,7 +38,7 @@ body{
   /* styling contact btn  */
 .c-btn{
     border: none;
-    background: #fca61f;
+    background: #fc1f82;
     color: #fff;
     font-size: 1.2rem;
 }
@@ -60,7 +60,7 @@ body{
     line-height: 4rem;
 }
 .c-orange{
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
     font-weight: 700;
     font-size: 4rem;
 }
@@ -70,7 +70,7 @@ body{
     font-size: 1.2rem;
 }
 .h-btn:hover{
-    background: #6f34fe;
+    background: rgba(4, 186, 241, 0.97);
     color: #fff;
     transform: translateY(-20px);
     transition-duration: 1s;
@@ -78,7 +78,7 @@ body{
 .link{
     text-decoration: none;
     font-size: 1.2rem;
-    color: #fca61f;
+    color: #fc1f82;
     position: relative;
 }
 .link::after{
@@ -90,12 +90,12 @@ body{
     bottom: 0;
     left: 0;
     top: 20px;
-    background-color: #6f34fe;
+    background-color: rgba(4, 186, 241, 0.97);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
 .link:hover{
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
 }
 .link:hover::after{
     transform: scaleX(1);
@@ -120,7 +120,7 @@ body{
 
 /* expertise section starts */
 .heading small{
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -136,10 +136,10 @@ body{
 }
 .expertise a{
     text-decoration: none;
-    color: #fca61f;
+    color: #fc1f82;
 }
 .expertise a:hover{
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
 }
 .expertise .service-card{
     text-align: center;
@@ -166,7 +166,7 @@ body{
     height: 130px;
     width: 130px;
     border-radius: 50%;
-    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    background: conic-gradient(rgba(4, 186, 241, 0.97) 3.6deg, #ededed 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,10 +185,10 @@ body{
     font-weight: 600;
 }
 .html-progress{
-    color: #fca61f;
+    color: #fc1f82;
 }
 .javascript-progress{
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
 }
 .php-progress{
     color: #20c997;
@@ -219,7 +219,7 @@ body{
   margin: 0 25px;
 }
 #myBtnContainer button:hover{
-    color: #fca61f;
+    color: #fc1f82;
 }
 
 #myBtnContainer button:focus{
@@ -243,7 +243,7 @@ body{
 }
 .testimonial i{
     font-size: 2.9rem;
-    color: #fca61f;
+    color: #fc1f82;
     
 }
 .testimonial .nextprev-btn{
@@ -251,12 +251,12 @@ body{
     background-color: #fff;
 }
 .prev:hover,.prev-btn:hover{
-    color:#6f34fe;
+    color:rgba(4, 186, 241, 0.97);
     transform: translateX(-10px);
     transition-duration: 1s;
 }
 .next:hover,.next-btn:hover{
-    color:#6f34fe;
+    color:rgba(4, 186, 241, 0.97);
     transform: translateX(10px);
     transition-duration: 1s;
 }
@@ -274,7 +274,7 @@ body{
 }
 
 .blog .blogpost small{
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
     font-size: 1.1rem;
 }
 .blog .blogpost h4,.blogpost a{
@@ -284,15 +284,15 @@ body{
     text-decoration: none;
 }
 .blogpost a:hover{
-    color: #fca61f;
+    color: #fc1f82;
 }
 .blog .blogpost .read-more-btn{
     text-decoration: none;
-    color: #fca61f;
+    color: #fc1f82;
     font-size: 1.1rem;
 }
 .blog .blogpost .read-more-btn:hover{
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
 }
 /* styling modal group  */
 .btn-c{
@@ -304,14 +304,14 @@ body{
     margin-top: -3%;
 }
 .btn-c i{
-    color: #fca61f;
+    color: #fc1f82;
 }
 .modal-body .content span{
     font-size: 1rem;
 }
 .modal-body .content small{
     font-size: 1rem;
-    color: #6f34fe;
+    color: rgba(4, 186, 241, 0.97);
 }
 /* contact section starts */
 .contact{
@@ -319,7 +319,7 @@ body{
 }
 .contact-details i{
     font-size: 1.5rem;
-    color: #fca61f;
+    color: #fc1f82;
 }
 .contact-details p{
     font-size: 1.2rem;
@@ -327,7 +327,7 @@ body{
 }
 .contact-form .form-control:focus{
     box-shadow: none;
-    border: 1px solid #fca61f;
+    border: 1px solid #fc1f82;
 }
 .contact-form .form-control{
     padding: 10px 10px;
@@ -348,7 +348,7 @@ footer .link-group a{
     margin-top: 1rem;
 }
 footer .link-group a:hover{
-    color: #fca61f;
+    color: #fc1f82;
 }
 .social-links button{
     border: none;
@@ -375,10 +375,10 @@ footer .link-group a:hover{
     background-color: #25D366;
 }
 .social-links .behance{
-    color: #255afc;
+    color: rgba(4, 186, 241, 0.97);
 }
 .social-links .behance:hover{
-    background-color: #255afc;
+    background-color: rgba(4, 186, 241, 0.97);
 }
 
 /* styling back to top button */
@@ -388,7 +388,7 @@ footer .link-group a:hover{
     right: 40px;
     display: none;
     font-size: 1.4rem;
-    background-color: #fca61f;
+    background-color: rgba(4, 186, 241, 0.97);
     color: #fff;
     animation: pulse 3s infinite;
 }
