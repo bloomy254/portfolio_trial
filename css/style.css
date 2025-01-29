@@ -6,7 +6,7 @@ body{
 /* styling menu icon */
 .nav-menu{
     border: none;
-    background-color: #fff;
+    background-color: #989898;
     font-size: 1.5rem;
     color: #fc1f82;
 }
@@ -42,6 +42,12 @@ body{
     color: #fff;
     font-size: 1.2rem;
 }
+.c-btn:hover {
+    border: none;
+    background: rgba(4, 186, 241, 0.97);
+    color: #fff;
+    font-size: 1.2rem;
+}
 #conta {
     text-decoration: none;
     color: white;
@@ -51,6 +57,10 @@ body{
     color: white;
 }
 /* styling home section starts */
+#my_img{
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+}
 .home{
     background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
     padding: 30px 0px 10px 0px;
